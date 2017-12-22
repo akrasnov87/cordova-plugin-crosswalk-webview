@@ -1,0 +1,32 @@
+{
+    "name": "cordova-plugin-crosswalk-webview",
+    "version": "1.0.0",
+    "description": "Schedule, trigger and query local notifications on iOS and Android",
+    "cordova": {
+        "id": "cordova-plugin-crosswalk",
+        "platforms": [
+            "android"
+        ]
+    },
+    "engines": {
+        "cordovaDependencies": {
+            "2.0.0": {
+                "cordova": ">=5.2.0",
+                "cordova-android": "4 - 5"
+            },
+            "2.1.0": {
+                "cordova": ">=5.2.0",
+                "cordova-android": "4 - 5"
+            },
+            "2.2.0": {
+                "cordova": ">=5.2.0",
+                "cordova-android": ">=6"
+            },
+            "3.0.0": {
+                "cordova": ">100"
+            }
+        }
+    },
+    "author": "Aleksandr Krasnov",
+    "license": "Apache 2.0"
+}
